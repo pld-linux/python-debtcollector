@@ -10,7 +10,7 @@ Summary(pl.UTF-8):	Zbiór wzorców i strategii odchodzenia, pozwalający gromadz
 Name:		python-debtcollector
 # keep 1.x here for python2 support
 Version:	1.22.0
-Release:	2
+Release:	3
 License:	Apache v2.0
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/d/debtcollector/debtcollector-%{version}.tar.gz
