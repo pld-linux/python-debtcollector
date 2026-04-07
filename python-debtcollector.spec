@@ -3,14 +3,14 @@
 %bcond_without	doc	# Sphinx documentation
 %bcond_with	tests	# unit tests (missing deps)
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-debtcollector.spec)
 
 Summary:	A collection of Python deprecation patterns and strategies that help you collect your technical debt in a non-destructive manner
 Summary(pl.UTF-8):	Zbiór wzorców i strategii odchodzenia, pozwalający gromadzić dług technologiczny w sposób niedestruktywny
 Name:		python-debtcollector
 # keep 1.x here for python2 support
 Version:	1.22.0
-Release:	3
+Release:	4
 License:	Apache v2.0
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/d/debtcollector/debtcollector-%{version}.tar.gz
